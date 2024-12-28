@@ -1,0 +1,11 @@
+C:\work\GitProject\ClassLibrary1\bin\Debug\net9.0\ClassLibrary1.deps.json
+C:\work\GitProject\ClassLibrary1\bin\Debug\net9.0\ClassLibrary1.dll
+C:\work\GitProject\ClassLibrary1\bin\Debug\net9.0\ClassLibrary1.pdb
+C:\work\GitProject\ClassLibrary1\obj\Debug\net9.0\ClassLibrary1.GeneratedMSBuildEditorConfig.editorconfig
+C:\work\GitProject\ClassLibrary1\obj\Debug\net9.0\ClassLibrary1.AssemblyInfoInputs.cache
+C:\work\GitProject\ClassLibrary1\obj\Debug\net9.0\ClassLibrary1.AssemblyInfo.cs
+C:\work\GitProject\ClassLibrary1\obj\Debug\net9.0\ClassLibrary1.csproj.CoreCompileInputs.cache
+C:\work\GitProject\ClassLibrary1\obj\Debug\net9.0\ClassLibrary1.dll
+C:\work\GitProject\ClassLibrary1\obj\Debug\net9.0\refint\ClassLibrary1.dll
+C:\work\GitProject\ClassLibrary1\obj\Debug\net9.0\ClassLibrary1.pdb
+C:\work\GitProject\ClassLibrary1\obj\Debug\net9.0\ref\ClassLibrary1.dll
