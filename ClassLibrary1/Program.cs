@@ -1,8 +1,8 @@
 ﻿namespace ClassLibrary1;
 
-public class Class1
+class Program
 {
-    static void Main()
+    static void Main(string[] args)
     {
         Console.WriteLine("Hello World!");
     }
