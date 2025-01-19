@@ -1,0 +1,252 @@
+﻿<Window x:Class="EconChart.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="950" Width="1510" WindowStartupLocation="CenterScreen" WindowState="Maximized" Icon="Images/Numbers.ico">
+    <Grid>
+        <DockPanel Name="dockPanel1">
+            <Menu DockPanel.Dock="Top" Name="menu1" Height="23" VerticalAlignment="Top">
+                <MenuItem Header="금리">
+                    <MenuItem Header="ECOS">
+                        <MenuItem Header="ECOS 콜금리(익일물, 중개회사거래)(일간)" Click="EcosCallRate_Click"/>
+                        <MenuItem Header="ECOS 채권 동향(일간)" Click="EcosKtbStatus_Click"/>
+                        <MenuItem Header="BOK Key Rate, KTB3 and KTB10" Click="BOKRateKtb3Ktb10_Click"/>
+                        <Separator/>
+                        <!--<MenuItem Header="KORIBOR(3개월)(일간)" Click="EcosKoribor3M_Click"/>-->
+                        <!--<MenuItem Header="KORIBOR(6개월)(일간)" Click="EcosKoribor6M_Click"/>-->
+                        <!--<MenuItem Header="KORIBOR(12개월)(일간)" Click="EcosKoribor12M_Click"/>-->
+                        <!--<Separator/>-->
+                        <MenuItem Header="CD(91일)(일간)" Click="EcosCd91D_Click"/>
+                        <MenuItem Header="통안증권(91일물)(일간)" Click="EcosMsb91D_Click"/>
+                        <MenuItem Header="국고채(1년)(일간)" Click="EcosKtb1Y_Click"/>
+                        <MenuItem Header="국고채(3년)(일간)" Click="EcosKtb3Y_Click"/>
+                        <MenuItem Header="국고채(5년)(일간)" Click="EcosKtb5Y_Click"/>
+                        <MenuItem Header="국고채(10년)(일간)" Click="EcosKtb10Y_Click"/>
+                        <MenuItem Header="BOK 기준금리, 국고채 10년물과 미국채 10년물" Click="BokKeyRateKtb10AndDgs10_Click"/>
+                        <MenuItem Header="MOVE Index and 국고채(10년)(일간)" Click="MoveAndKtb10_Click"/>
+                        <MenuItem Header="국고채(20년)(일간)" Click="EcosKtb20Y_Click"/>
+                        <MenuItem Header="국고채(30년)(일간)" Click="EcosKtb30Y_Click"/>
+                        <Separator/>
+                        <MenuItem Header="The Spread : Business Cycle (일간)" Click="EcosCycleSpread_Click"/>
+                        <MenuItem Header="Kospi, 미국채 10년물 (일간)" Click="EcosKospiAndDgs10_Click"/>
+                        <Separator/>
+                        <MenuItem Header="국고채 3년물-콜금리 스프레드 (일간)" Click="EcosKtb3CallSpread_Click"/>
+                        <Separator/>
+                        <MenuItem Header="국고채 3년물-회사채(3년,AA-) 스프레드 (일간)" Click="EcosKtb3Cb3aaSpread_Click"/>
+                        <MenuItem Header="국고채 3년물-회사채(3년,BBB-) 스프레드 (일간)" Click="EcosKtb3Cb3bbbSpread_Click"/>
+                        <MenuItem Header="국고채 5년물-회사채(3년,AA-) 스프레드 (일간)" Click="EcosKtb5Cb3aaSpread_Click"/>
+                        <MenuItem Header="국고채 5년물-회사채(3년,BBB-) 스프레드 (일간)" Click="EcosKtb5Cb3bbbSpread_Click"/>
+                        <Separator/>
+                        <MenuItem Header="국고채(3년), 국고채(10년), 스프레드(일간)" Click="EcosKtb3YKtb10YSpread_Click"/>
+                        <MenuItem Header="독일 10년물, 미국채 10년물, 스프레드(월간)" Click="EcosBund10YDgs10YSpread_Click"/>
+                        <MenuItem Header="영국 10년물, 미국채 10년물, 스프레드(월간)" Click="EcosEgb10YDgs10YSpread_Click"/>
+                        <MenuItem Header="일본 10년물, 미국채 10년물, 스프레드(월간)" Click="EcosJgb10YDgs10YSpread_Click"/>
+                        <Separator/>
+                        <MenuItem Header="한미 기준 금리 동향" Click="KrKeyRateAndUsFFR_Click"/>
+                    </MenuItem>
+                    <MenuItem Header="FRED">
+                        <MenuItem Header="U.S. Fed Fund Rate" Click="FedFundRate_Click"/>
+                        <MenuItem Header="U.S. Fed Fund Rate, DGS2 and DGS10" Click="FedFundRateDgs2AndDgs10_Click"/>
+                        <MenuItem Header="U.S. Fed Fund Rate, DGS20 and DGS30" Click="FedFundRateDgs20AndDgs30_Click"/>
+                        <MenuItem Header="U.S. Treasury 채권 동향(일간)" Click="FredTbStatus_Click"/>
+                        <MenuItem Header="Move Index and DGS10" Click="MoveAndDgs10_Click"/>
+                        <Separator/>
+                        <MenuItem Header="The Spread : Business Cycle (일간)" Click="FredCycleSpread_Click"/>
+                        <Separator/>
+                        <MenuItem Header="10-Year Treasury Constant Maturity Minus 2-Year Treasury Constant Maturity(일간)" Click="FredDgs10Dgs2Spread_Click"/>
+                        <MenuItem Header="10-Year Treasury Constant Maturity Minus Federal Funds Rate(일간)" Click="FredDgs10DffSpreadAndTedRate_Click"/>
+                        <MenuItem Header="10-Year Treasury Constant Maturity Minus 3 Month Treasury Constant Maturity(일간)" Click="FredDgs10Dgs3moSpread_Click"/>
+                        <MenuItem Header="10-Year Treasury Constant Maturity Minus DBAA(일간)" Click="FredDgs10DbaaSpread_Click"/>
+                        <MenuItem Header="5-Year Breakeven Inflation Rate(일간)" Click="FredDgs5Dfii5Spread_Click"/>
+                        <MenuItem Header="10-Year Breakeven Inflation Rate(일간)" Click="FredDgs10Dfii10Spread_Click"/>
+                        <Separator/>
+                        <MenuItem Header="10-Year Treasury Constant Maturity(일간)" Click="UsGB10YSMA_Click"/>
+                        <MenuItem Header="U.S. Treasury vs 한국 국채 10년 동향(일간)" Click="UsGB10YvsKrGB10Y_Click"/>
+                    </MenuItem>
+                    <Separator/>
+                    <MenuItem Header="ETC">
+                        <MenuItem Header="국고채 3년, 통안2년 스프레드와 원달러 환율" Click="KoKtb3Msb2SpreadDexkous_Click"/>
+                        <!--<MenuItem Header="한미일 2년물 스프레드 동향" Click="KoUsJp2yrSpread_Click"/>-->
+                        <MenuItem Header="한미 3개월물 스프레드 동향" Click="Ecos90DDgs3MoSpread_Click"/>
+                        <MenuItem Header="한미 10년물과 달러원 환율 동향" Click="Ktb10AndGs10AndKRW_Click"/>
+                        <!--<MenuItem Header="일본 채권 동향" Click="QuandlBojStatus_Click"/>-->
+                    </MenuItem>
+                </MenuItem>
+                <MenuItem Header="환율">
+                    <MenuItem Header="ECOS">
+                        <MenuItem Header="원/달러(일간)" Click="EcosDexKoUs_Click"/>
+                        <MenuItem Header="MOVE Index and 원/달러(일간)" Click="MoveAndDexkous_Click"/>
+                        <MenuItem Header="원/100엔(일간)" Click="EcosDexKoJp_Click"/>
+                        <MenuItem Header="원/Euro(일간)" Click="EcosDexKoEu_Click"/>
+                        <MenuItem Header="원/영국 파운드(일간)" Click="EcosDexKoUk_Click"/>
+                        <MenuItem Header="원/캐나다 달러(일간)" Click="EcosDexKoCa_Click"/>
+                        <MenuItem Header="원/스위스 프랑(일간)" Click="EcosDexKoSz_Click"/>
+                        <MenuItem Header="원/스웨덴 크로나(일간)" Click="EcosDexKoSd_Click"/>
+                        <MenuItem Header="원/호주 달러(일간)" Click="EcosDexKoAl_Click"/>
+                        <MenuItem Header="원/싱가폴 달러(일간)" Click="EcosDexKoSi_Click"/>
+                        <MenuItem Header="원/말레이지아 링기트(일간)" Click="EcosDexKoMa_Click"/>
+                        <MenuItem Header="원/뉴질랜드 달러(일간)" Click="EcosDexKoNz_Click"/>
+                        <MenuItem Header="원/태국 바트(일간)" Click="EcosDexKoTh_Click"/>
+                        <MenuItem Header="원/대만 달러(일간)" Click="EcosDexKoTa_Click"/>
+                        <MenuItem Header="원/필리핀 페소(일간)" Click="EcosDexKoPh_Click"/>
+                        <MenuItem Header="원/인도네시아 루피아(100루피아)(일간)" Click="EcosDexKoId_Click"/>
+                        <MenuItem Header="원/베트남 동(일간)" Click="EcosDexKoVn_Click"/>
+                        <MenuItem Header="원/인도 루피(일간)" Click="EcosDexKoIn_Click"/>
+                        <MenuItem Header="원/멕시코 페소(일간)" Click="EcosDexKoMx_Click"/>
+                        <MenuItem Header="원/브라질 헤알(일간)" Click="EcosDexKoBr_Click"/>
+                        <MenuItem Header="원/아르헨티나 페소(일간)" Click="EcosDexKoAr_Click"/>
+                        <MenuItem Header="원/러시아 루블(일간)" Click="EcosDexKoRu_Click"/>
+                        <MenuItem Header="원/터키 리라(일간)" Click="EcosDexKoTr_Click"/>
+                        <MenuItem Header="원/남아프리카공화국 랜드(일간)" Click="EcosDexKoZa_Click"/>
+                        <MenuItem Header="원/위안(매매기준율)(일간)" Click="EcosDexKoCn_Click"/>
+                        <Separator/>
+                        <MenuItem Header="원/달러 환율과 외국인 거래소 순매수 90일 이동평균(일간)" Click="EcosDexKoUsAndBuySell90Sma_Click"/>
+                        <MenuItem Header="원/달러, BofA Merrill Lynch Asia Emerging Markets Corporate Plus Sub-Index Option-Adjusted Spreadⓒ(일간)" Click="EcosDexKoUsAndAsiaEmergingMarketsCorporatePlusSubIndex_Click"/>
+                        <MenuItem Header="원/달러, WTI (일간)" Click="EcosDexKoUsAndWti_Click"/>
+                        <MenuItem Header="원/달러, Trade Weighted U.S. Dollar Index: Other Important Trading Partners (일간)" Click="EcosDexKoUsAndTwExo_Click"/>
+                    </MenuItem>
+                    <MenuItem Header="FRED">
+                        <MenuItem Header="(diss)Trade Weighted U.S. Dollar Index: Broad" Click="FredDtwExb_Click" Background="#FFB07878"/>
+                        <MenuItem Header="(diss)Trade Weighted U.S. Dollar Index: Major Currencies" Click="FredDtwExm_Click" Background="#FFB07878"/>
+                        <MenuItem Header="(diss)Trade Weighted U.S. Dollar Index: Other Important Trading Partners" Click="FredDtwExo_Click" Background="#FFB07878"/>
+                        <MenuItem Header="(diss)WTI, Trade Weighted U.S. Dollar Index: Other Important Trading Partners (일간)" Click="FredWtiAndTwExo_Click" Background="#FFB07878"/>
+                        <Separator/>
+                        <MenuItem Header="Brazil / U.S. Foreign Exchange Rate(일간)" Click="FredDexBzUs_Click"/>
+                        <MenuItem Header="Canada / U.S. Foreign Exchange Rate(일간)" Click="FredDexCaUs_Click"/>
+                        <MenuItem Header="China / U.S. Foreign Exchange Rate(일간)" Click="FredDexChUs_Click"/>
+                        <MenuItem Header="India / U.S. Foreign Exchange Rate(일간)" Click="FredDexInUs_Click"/>
+                        <MenuItem Header="Japan / U.S. Foreign Exchange Rate(일간)" Click="FredDexJpUs_Click"/>
+                        <MenuItem Header="Korea / U.S. Foreign Exchange Rate(일간)" Click="FredDexKoUs_Click"/>
+                        <MenuItem Header="Malaysia / U.S. Foreign Exchange Rate(일간)" Click="FredDexMaUs_Click"/>
+                        <MenuItem Header="Mexico / U.S. Foreign Exchange Rate(일간)" Click="FredDexMxUs_Click"/>
+                        <MenuItem Header="Sweden / U.S. Foreign Exchange Rate(일간)" Click="FredDexSdUs_Click"/>
+                        <MenuItem Header="South Africa / U.S. Foreign Exchange Rate(일간)" Click="FredDexSfUs_Click"/>
+                        <MenuItem Header="Singapore / U.S. Foreign Exchange Rate(일간)" Click="FredDexSiUs_Click"/>
+                        <MenuItem Header="Switzerland / U.S. Foreign Exchange Rate(일간)" Click="FredDexSzUs_Click"/>
+                        <MenuItem Header="Taiwan / U.S. Foreign Exchange Rate(일간)" Click="FredDexTaUs_Click"/>
+                        <MenuItem Header="Thailand / U.S. Foreign Exchange Rate(일간)" Click="FredDexThUs_Click"/>
+                        <!--<MenuItem Header="Venezuela / U.S. Foreign Exchange Rate(일간)" Click="FredDexVzUs_Click"/>-->
+                        <MenuItem Header="U.S. / Australia Foreign Exchange Rate(일간)" Click="FredDexUsAl_Click"/>
+                        <MenuItem Header="U.S. / Euro Foreign Exchange Rate(일간)" Click="FredDexUsEu_Click"/>
+                        <MenuItem Header="U.S. / New Zealand Foreign Exchange Rate(일간)" Click="FredDexUsNz_Click"/>
+                        <MenuItem Header="U.S. / U.K. Foreign Exchange Rate(일간)" Click="FredDexUsUk_Click"/>
+                        <Separator/>
+                        <MenuItem Header="Brazil / U.S. Foreign Exchange Rate, Real Broad Effective Exchange Rate for Brazil(월간)" Click="FredEffExBzEx_Click"/>
+                        <MenuItem Header="Canada / U.S. Foreign Exchange Rate, Real Broad Effective Exchange Rate for Canada(월간)" Click="FredEffExCaEx_Click"/>
+                        <MenuItem Header="China / U.S. Foreign Exchange Rate, Real Broad Effective Exchange Rate for China(월간)" Click="FredEffExChEx_Click"/>
+                        <MenuItem Header="India / U.S. Foreign Exchange Rate, Real Broad Effective Exchange Rate for India(월간)" Click="FredEffExInEx_Click"/>
+                        <MenuItem Header="Japan / U.S. Foreign Exchange Rate, Real Broad Effective Exchange Rate for Japan(월간)" Click="FredEffExJpEx_Click"/>
+                        <MenuItem Header="Korea / U.S. Foreign Exchange Rate, Real Broad Effective Exchange Rate for Korea(월간)" Click="FredEffExKoEx_Click"/>
+                        <MenuItem Header="Malaysia / U.S. Foreign Exchange Rate, Real Broad Effective Exchange Rate for Malaysia(월간)" Click="FredEffExMaEx_Click"/>
+                        <MenuItem Header="Mexico / U.S. Foreign Exchange Rate, Real Broad Effective Exchange Rate for Mexico(월간)" Click="FredEffExMxEx_Click"/>
+                        <MenuItem Header="Sweden / U.S. Foreign Exchange Rate, Real Broad Effective Exchange Rate for Sweden(월간)" Click="FredEffExSdEx_Click"/>
+                        <MenuItem Header="South Africa / U.S. Foreign Exchange Rate, Real Broad Effective Exchange Rate for South Africa(월간)" Click="FredEffExSfEx_Click"/>
+                        <MenuItem Header="Singapore / U.S. Foreign Exchange Rate, Real Broad Effective Exchange Rate for Singapore(월간)" Click="FredEffExSiEx_Click"/>
+                        <MenuItem Header="Switzerland / U.S. Foreign Exchange Rate, Real Broad Effective Exchange Rate for Switzerland(월간)" Click="FredEffExSzEx_Click"/>
+                        <MenuItem Header="Taiwan / U.S. Foreign Exchange Rate, Real Broad Effective Exchange Rate for Taiwan(월간)" Click="FredEffExTaEx_Click"/>
+                        <MenuItem Header="Thailand / U.S. Foreign Exchange Rate, Real Broad Effective Exchange Rate for Thailand(월간)" Click="FredEffExThEx_Click"/>
+                        <MenuItem Header="U.S. / Australia Foreign Exchange Rate, Real Broad Effective Exchange Rate for Australia(월간)" Click="FredEffExAlEx_Click"/>
+                        <MenuItem Header="U.S. / Euro Foreign Exchange Rate, Real Broad Effective Exchange Rate for Euro(월간)" Click="FredEffExEuEx_Click"/>
+                        <MenuItem Header="U.S. / New Zealand Foreign Exchange Rate, Real Broad Effective Exchange Rate for New Zealand(월간)" Click="FredEffExNzEx_Click"/>
+                        <MenuItem Header="U.S. / U.K. Foreign Exchange Rate, Real Broad Effective Exchange Rate for U.K.(월간)" Click="FredEffExUkEx_Click"/>
+                        <!--<MenuItem Header="Venezuela / U.S. Foreign Exchange Rate, Real Broad Effective Exchange Rate for Venezuela(월간)" Click="FredEffExVzEx_Click"/>-->
+                    </MenuItem>
+                    <MenuItem Header="ETC">
+                        <MenuItem Header="DXY와 FFR 동향" Click="DxyAndFedFundRate_Click"/>
+                        <MenuItem Header="달러/원 환율과 미국채 10-2 Spread 동향" Click="FredDgs10Dgs2SpreadCompareDexkous_Click"/>
+                        <MenuItem Header="달러/원 환율과 한미 기준금리 스프레드 동향" Click="KrKeyRateAndUsFfrSpreadVsDexKoUs_Click"/>
+                        <MenuItem Header="원/달러, DXY (일간)" Click="YahooDollarIndexAndKRW_Click"/>
+                        <MenuItem Header="한미일 CD금리차와 원엔 재정환율 (월간)" Click="CdSpreadJpUsAndKoUs_Click"/>
+                        <MenuItem Header="일간 미일 2년물 스프레드와 엔달러 환율" Click="UsJpBond2ySpreadAndYenDollar_Click"/>
+                        <MenuItem Header="Dollar Index" Click="YahooYahooDollarIndex_Click"/>
+                        <MenuItem Header="원/달러 52주 (일간)" Click="DEXKOUS52W_Click"/>
+                        <MenuItem Header="Dollar Index 52주 (일간)" Click="DXY52W_Click"/>
+                        <MenuItem Header="Dollar GAP Index 52주 (일간)" Click="DOLLARGAPINDEX_Click"/>
+                    </MenuItem>
+                </MenuItem>
+                <MenuItem Header="상품">
+                    <MenuItem Header="FRED">
+                        <MenuItem Header="WTI (일간)" Click="WtiAndOilVix_Click"/>
+                        <MenuItem Header="Gas Margin (일간)" Click="FredGasWtiMargin_Click" ToolTip="1 barrel of crude oil = 42 US gallons = 158.9리터, 제품-WTI"/>
+                        <MenuItem Header="Diesel Margin (일간)" Click="FredDieselWtiMargin_Click" ToolTip="1 barrel of crude oil = 42 US gallons = 158.9리터, 제품-WTI"/>
+                        <MenuItem Header="Jet Margin (일간)" Click="FredJetWtiMargin_Click" ToolTip="1 barrel of crude oil = 42 US gallons = 158.9리터, 제품-WTI"/>
+                        <MenuItem Header="Propane Margin (일간)" Click="FredPropaneWtiMargin_Click" ToolTip="1 barrel of crude oil = 42 US gallons = 158.9리터, 제품-WTI"/>
+                        <MenuItem Header="Heating Oil Margin (일간)" Click="FredHeatingOilWtiMargin_Click" ToolTip="1 barrel of crude oil = 42 US gallons = 158.9리터, 제품-WTI"/>
+                        <Separator/>
+                        <MenuItem Header="Crude Oil Prices: West Texas Intermediate (WTI) - Cushing, Oklahoma(월간)" Click="FredWti_Click"/>
+                        <MenuItem Header="Crude Oil Prices: Brent - Europe(월간)" Click="FredBrent_Click"/>
+                        <MenuItem Header="Conventional Gasoline Prices: U.S. Gulf Coast, Regular(월간)" Click="FredGasolinePrice_Click"/>
+                        <MenuItem Header="Henry Hub Natural Gas Spot Price(월간)" Click="FredNaturalGasPrice_Click"/>
+                        <MenuItem Header="Kerosene-Type Jet Fuel Prices: U.S. Gulf Coast(월간)" Click="FredJetFuelPrice_Click"/>
+                        <MenuItem Header="Propane Prices: Mont Belvieu, Texas(월간)" Click="FredPropanePrice_Click"/>
+                        <MenuItem Header="No. 2 Heating Oil Prices: New York Harbor(월간)" Click="FredHeatingOilPrice_Click"/>
+                        <!--<MenuItem Header="Global price of Iron Oreⓒ(월간)" Click="FredIronOrePrice_Click"/>
+                        <MenuItem Header="Global price of Coal, Australiaⓒ(월간)" Click="FredCoalPrice_Click"/>
+                        <MenuItem Header="Global price of Cottonⓒ(월간)" Click="FredCottonPrice_Click"/>
+                        <MenuItem Header="Global price of Palm Oilⓒ(월간)" Click="FredPalmOilPrice_Click"/>
+                        <MenuItem Header="Global price of Weatⓒ(월간)" Click="FredWheatPrice_Click"/>-->
+                    </MenuItem>
+                </MenuItem>
+                <MenuItem Header="기타">
+                    <MenuItem Header="Recently Updated List" Click="RecentlyUpdatedList_Click"/>
+                    <MenuItem Header="Monthly US Treas. List" Click="RecentlyUsTreasList_Click"/>
+                    <MenuItem Header="US Treas. Simple " Click="UsTreasSimple_Click"/>
+                    <Separator/>
+                    <MenuItem Header="OAS Spread : 무위험 수익률 (일간)" Click="BofAMerrillLynchOptionAdjustedSpread_Click"/>
+                    <MenuItem Header="OAS Spread : 이머징 마켙 회사채-미국 회사채, 원달러 (일간)" Click="FredBamlSpread1DexKoUs_Click"/>
+                    <MenuItem Header="OAS Spread : 이머징 아시아 마켙 회사채-미국 회사채, 원달러 (일간)" Click="FredBamlSpread2DexKoUs_Click"/>
+                    <Separator/>
+                    <MenuItem Header="원/달러, 엔/달러, 원/엔 재정환율 (일간)" Click="DexKoUs_JpUs_KoJp_Click"/>
+                    <Separator/>
+                    <MenuItem Header="외국인 거래소 순매수 잠정치 60, 200 SMA (일간)" Click="ForeignKospiBuySell_Click"/>
+                    <MenuItem Header="외국인 KOSDAQ 순매수 잠정치 60, 200 SMA (일간)" Click="ForeignKosdaqBuySell_Click"/>
+                    <Separator/>
+                    <MenuItem Header="수출 (월간)" Click="EcosExport3SmaPcya_Click"/>
+                    <MenuItem Header="수입 (월간)" Click="EcosImport3SmaPcya_Click"/>
+                    <Separator/>
+                    <MenuItem Header="비거주자 예수금: 원화예금 (월간)" Click="NonResidentWonDeposit3SmaPcya_Click"/>
+                    <MenuItem Header="비거주자 예수금: 외화예금 (월간)" Click="NonResidentExDeposit3SmaPcya_Click"/>
+                    <Separator/>
+                    <MenuItem Header="대출/수신금리 및 순이자 마진(NIM) (월간)" Click="EcosLoanReceiveNim_Click"/>
+                    <Separator/>
+                    <MenuItem Header="외국인 거래소 순매수 잠정치와 KOSPI (일간)" Click="YahooKospiAndEcosForeignKospiBuySell_Click"/>
+                    <MenuItem Header="외국인 KOSDAQ 순매수 잠정치와 KOSDAQ (일간)" Click="YahooKosdaqAndEcosForeignKosdaqBuySell_Click"/>
+                    <MenuItem Header="KOSPI 달러 환산 동향 (일간)" Click="YahooKospiAndEcosDexKoUs_Click"/>
+                </MenuItem>
+                <MenuItem Header="변동성">
+                    <MenuItem Header="VIX and SP500" Click="VixVsSp500Day_Click"/>
+                    <MenuItem Header="VIX 3mo and SP500" Click="Vix3moVsSp500Day_Click"/>
+                    <MenuItem Header="VIX and DGS10" Click="VixVsDgs10_Click"/>
+                    <MenuItem Header="VIX and WTI" Click="VixVsWti_Click"/>
+                </MenuItem>
+                <MenuItem Header="Index">
+                    <MenuItem Header="KOSPI and SnP 500" Click="KospiAndSnp_Click"/>
+                    <MenuItem Header="Dow Jones Index" Click="DowJonesIndex_Click"/>
+                    <MenuItem Header="SnP 500 Index" Click="Snp500Index_Click"/>
+                    <MenuItem Header="NASDAQ Index" Click="NasdaqIndex_Click"/>
+                    <MenuItem Header="SectorETF">
+                        <MenuItem Header="Financial Select Sector SPDR Fund(XLF)" Click="YahooSectorEtfXLF_Click"/>
+                        <MenuItem Header="Energy Select Sector SPDR Fund(XLE)" Click="YahooSectorEtfXLE_Click"/>
+                        <MenuItem Header="Utilities Select Sector SPDR Fund(XLU)" Click="YahooSectorEtfXLU_Click"/>
+                        <MenuItem Header="Consumer Staples Select Sector SPDR Fund(XLP)" Click="YahooSectorEtfXLP_Click"/>
+                        <MenuItem Header="Consumer Discretionary Select Sector SPDR Fund(XLY)" Click="YahooSectorEtfXLY_Click"/>
+                        <MenuItem Header="Industrial Select Sector SPDR Fund(XLI)" Click="YahooSectorEtfXLI_Click"/>
+                        <MenuItem Header="Materials Select Sector SPDR Fund(XLB)" Click="YahooSectorEtfXLB_Click"/>
+                        <MenuItem Header="Health Care Select Sector SPDR Fund(XLV)" Click="YahooSectorEtfXLV_Click"/>
+                        <MenuItem Header="Technology Select Sector SPDR Fund(XLK)" Click="YahooSectorEtfXLK_Click"/>
+                        <MenuItem Header="Communication Services Select Sector SPDR Fund(XLC)" Click="YahooSectorEtfXLC_Click"/>
+                        <MenuItem Header="The Real Estate Select Sector SPDR Fund(XLRE)" Click="YahooSectorEtfXLRE_Click"/>
+                    </MenuItem>
+                    <MenuItem Header="EDV VS DGS20" Click="YahooEtfEdvVsDgs20_Click"/>
+                    <MenuItem Header="TLT VS DGS20" Click="YahooEtfTltVsDgs20_Click"/>
+                </MenuItem>
+                <MenuItem Header="종료" Click="Exit_Click"/>
+            </Menu>
+            <Grid DockPanel.Dock="Bottom" x:Name="LayoutRoot">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="0*"/>
+                </Grid.ColumnDefinitions>
+            </Grid>
+        </DockPanel>
+    </Grid>
+</Window>

@@ -1,0 +1,320 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\cheolwon\\OneDrive\\document\\Project\\SeriesUpdater\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A57BBA14-121E-40CA-80B7-026A300BC43F}|SeriesUpdater\\SeriesUpdater.csproj|C:\\Users\\cheolwon\\OneDrive\\document\\Project\\SeriesUpdater\\seriesupdater\\api\\fredapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A57BBA14-121E-40CA-80B7-026A300BC43F}|SeriesUpdater\\SeriesUpdater.csproj|solutionrelative:seriesupdater\\api\\fredapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A57BBA14-121E-40CA-80B7-026A300BC43F}|SeriesUpdater\\SeriesUpdater.csproj|C:\\Users\\cheolwon\\OneDrive\\document\\Project\\SeriesUpdater\\seriesupdater\\util\\dateconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A57BBA14-121E-40CA-80B7-026A300BC43F}|SeriesUpdater\\SeriesUpdater.csproj|solutionrelative:seriesupdater\\util\\dateconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A57BBA14-121E-40CA-80B7-026A300BC43F}|SeriesUpdater\\SeriesUpdater.csproj|C:\\Users\\cheolwon\\OneDrive\\document\\Project\\SeriesUpdater\\seriesupdater\\util\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A57BBA14-121E-40CA-80B7-026A300BC43F}|SeriesUpdater\\SeriesUpdater.csproj|solutionrelative:seriesupdater\\util\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A57BBA14-121E-40CA-80B7-026A300BC43F}|SeriesUpdater\\SeriesUpdater.csproj|C:\\Users\\cheolwon\\OneDrive\\document\\Project\\SeriesUpdater\\seriesupdater\\util\\urls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A57BBA14-121E-40CA-80B7-026A300BC43F}|SeriesUpdater\\SeriesUpdater.csproj|solutionrelative:seriesupdater\\util\\urls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A57BBA14-121E-40CA-80B7-026A300BC43F}|SeriesUpdater\\SeriesUpdater.csproj|C:\\Users\\cheolwon\\OneDrive\\document\\Project\\SeriesUpdater\\seriesupdater\\util\\dbhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A57BBA14-121E-40CA-80B7-026A300BC43F}|SeriesUpdater\\SeriesUpdater.csproj|solutionrelative:seriesupdater\\util\\dbhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A57BBA14-121E-40CA-80B7-026A300BC43F}|SeriesUpdater\\SeriesUpdater.csproj|c:\\users\\cheolwon\\onedrive\\document\\project\\seriesupdater\\seriesupdater\\model\\yahoodata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A57BBA14-121E-40CA-80B7-026A300BC43F}|SeriesUpdater\\SeriesUpdater.csproj|solutionrelative:seriesupdater\\model\\yahoodata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A57BBA14-121E-40CA-80B7-026A300BC43F}|SeriesUpdater\\SeriesUpdater.csproj|C:\\Users\\cheolwon\\OneDrive\\document\\Project\\SeriesUpdater\\seriesupdater\\model\\ustreasdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A57BBA14-121E-40CA-80B7-026A300BC43F}|SeriesUpdater\\SeriesUpdater.csproj|solutionrelative:seriesupdater\\model\\ustreasdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A57BBA14-121E-40CA-80B7-026A300BC43F}|SeriesUpdater\\SeriesUpdater.csproj|C:\\Users\\cheolwon\\OneDrive\\document\\Project\\SeriesUpdater\\seriesupdater\\util\\downloaddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A57BBA14-121E-40CA-80B7-026A300BC43F}|SeriesUpdater\\SeriesUpdater.csproj|solutionrelative:seriesupdater\\util\\downloaddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A57BBA14-121E-40CA-80B7-026A300BC43F}|SeriesUpdater\\SeriesUpdater.csproj|C:\\Users\\cheolwon\\OneDrive\\document\\Project\\SeriesUpdater\\seriesupdater\\model\\seriesdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A57BBA14-121E-40CA-80B7-026A300BC43F}|SeriesUpdater\\SeriesUpdater.csproj|solutionrelative:seriesupdater\\model\\seriesdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A57BBA14-121E-40CA-80B7-026A300BC43F}|SeriesUpdater\\SeriesUpdater.csproj|C:\\Users\\cheolwon\\OneDrive\\document\\Project\\SeriesUpdater\\seriesupdater\\model\\fredseriesinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A57BBA14-121E-40CA-80B7-026A300BC43F}|SeriesUpdater\\SeriesUpdater.csproj|solutionrelative:seriesupdater\\model\\fredseriesinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A57BBA14-121E-40CA-80B7-026A300BC43F}|SeriesUpdater\\SeriesUpdater.csproj|C:\\Users\\cheolwon\\OneDrive\\document\\Project\\SeriesUpdater\\seriesupdater\\model\\ecosseriesinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A57BBA14-121E-40CA-80B7-026A300BC43F}|SeriesUpdater\\SeriesUpdater.csproj|solutionrelative:seriesupdater\\model\\ecosseriesinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A57BBA14-121E-40CA-80B7-026A300BC43F}|SeriesUpdater\\SeriesUpdater.csproj|C:\\Users\\cheolwon\\OneDrive\\document\\Project\\SeriesUpdater\\seriesupdater\\api\\ecosapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A57BBA14-121E-40CA-80B7-026A300BC43F}|SeriesUpdater\\SeriesUpdater.csproj|solutionrelative:seriesupdater\\api\\ecosapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A57BBA14-121E-40CA-80B7-026A300BC43F}|SeriesUpdater\\SeriesUpdater.csproj|C:\\Users\\cheolwon\\OneDrive\\document\\Project\\SeriesUpdater\\seriesupdater\\util\\ienumerableextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A57BBA14-121E-40CA-80B7-026A300BC43F}|SeriesUpdater\\SeriesUpdater.csproj|solutionrelative:seriesupdater\\util\\ienumerableextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A57BBA14-121E-40CA-80B7-026A300BC43F}|SeriesUpdater\\SeriesUpdater.csproj|C:\\Users\\cheolwon\\OneDrive\\document\\Project\\SeriesUpdater\\seriesupdater\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A57BBA14-121E-40CA-80B7-026A300BC43F}|SeriesUpdater\\SeriesUpdater.csproj|solutionrelative:seriesupdater\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A57BBA14-121E-40CA-80B7-026A300BC43F}|SeriesUpdater\\SeriesUpdater.csproj|C:\\Users\\cheolwon\\OneDrive\\document\\Project\\SeriesUpdater\\seriesupdater\\util\\sqlstatement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A57BBA14-121E-40CA-80B7-026A300BC43F}|SeriesUpdater\\SeriesUpdater.csproj|solutionrelative:seriesupdater\\util\\sqlstatement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A57BBA14-121E-40CA-80B7-026A300BC43F}|SeriesUpdater\\SeriesUpdater.csproj|C:\\Users\\cheolwon\\OneDrive\\document\\Project\\SeriesUpdater\\seriesupdater\\api\\ustreasapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A57BBA14-121E-40CA-80B7-026A300BC43F}|SeriesUpdater\\SeriesUpdater.csproj|solutionrelative:seriesupdater\\api\\ustreasapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A57BBA14-121E-40CA-80B7-026A300BC43F}|SeriesUpdater\\SeriesUpdater.csproj|C:\\Users\\cheolwon\\OneDrive\\document\\Project\\SeriesUpdater\\seriesupdater\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A57BBA14-121E-40CA-80B7-026A300BC43F}|SeriesUpdater\\SeriesUpdater.csproj|solutionrelative:seriesupdater\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A57BBA14-121E-40CA-80B7-026A300BC43F}|SeriesUpdater\\SeriesUpdater.csproj|C:\\Users\\cheolwon\\OneDrive\\document\\Project\\SeriesUpdater\\seriesupdater\\api\\yahooapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A57BBA14-121E-40CA-80B7-026A300BC43F}|SeriesUpdater\\SeriesUpdater.csproj|solutionrelative:seriesupdater\\api\\yahooapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "YahooData.cs",
+              "DocumentMoniker": "C:\\Users\\cheolwon\\OneDrive\\document\\Project\\SeriesUpdater\\SeriesUpdater\\Model\\YahooData.cs",
+              "RelativeDocumentMoniker": "SeriesUpdater\\Model\\YahooData.cs",
+              "ToolTip": "C:\\Users\\cheolwon\\OneDrive\\document\\Project\\SeriesUpdater\\SeriesUpdater\\Model\\YahooData.cs",
+              "RelativeToolTip": "SeriesUpdater\\Model\\YahooData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T06:11:49.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FredApi.cs",
+              "DocumentMoniker": "C:\\Users\\cheolwon\\OneDrive\\document\\Project\\SeriesUpdater\\SeriesUpdater\\API\\FredApi.cs",
+              "RelativeDocumentMoniker": "SeriesUpdater\\API\\FredApi.cs",
+              "ToolTip": "C:\\Users\\cheolwon\\OneDrive\\document\\Project\\SeriesUpdater\\SeriesUpdater\\API\\FredApi.cs",
+              "RelativeToolTip": "SeriesUpdater\\API\\FredApi.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAywCYAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T11:46:37.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DateConverter.cs",
+              "DocumentMoniker": "C:\\Users\\cheolwon\\OneDrive\\document\\Project\\SeriesUpdater\\SeriesUpdater\\Util\\DateConverter.cs",
+              "RelativeDocumentMoniker": "SeriesUpdater\\Util\\DateConverter.cs",
+              "ToolTip": "C:\\Users\\cheolwon\\OneDrive\\document\\Project\\SeriesUpdater\\SeriesUpdater\\Util\\DateConverter.cs",
+              "RelativeToolTip": "SeriesUpdater\\Util\\DateConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T11:46:04.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Urls.cs",
+              "DocumentMoniker": "C:\\Users\\cheolwon\\OneDrive\\document\\Project\\SeriesUpdater\\SeriesUpdater\\Util\\Urls.cs",
+              "RelativeDocumentMoniker": "SeriesUpdater\\Util\\Urls.cs",
+              "ToolTip": "C:\\Users\\cheolwon\\OneDrive\\document\\Project\\SeriesUpdater\\SeriesUpdater\\Util\\Urls.cs",
+              "RelativeToolTip": "SeriesUpdater\\Util\\Urls.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF0AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-04-29T12:11:34.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DownloadData.cs",
+              "DocumentMoniker": "C:\\Users\\cheolwon\\OneDrive\\document\\Project\\SeriesUpdater\\SeriesUpdater\\Util\\DownloadData.cs",
+              "RelativeDocumentMoniker": "SeriesUpdater\\Util\\DownloadData.cs",
+              "ToolTip": "C:\\Users\\cheolwon\\OneDrive\\document\\Project\\SeriesUpdater\\SeriesUpdater\\Util\\DownloadData.cs",
+              "RelativeToolTip": "SeriesUpdater\\Util\\DownloadData.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T06:51:45.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UsTreasData.cs",
+              "DocumentMoniker": "C:\\Users\\cheolwon\\OneDrive\\document\\Project\\SeriesUpdater\\SeriesUpdater\\Model\\UsTreasData.cs",
+              "RelativeDocumentMoniker": "SeriesUpdater\\Model\\UsTreasData.cs",
+              "ToolTip": "C:\\Users\\cheolwon\\OneDrive\\document\\Project\\SeriesUpdater\\SeriesUpdater\\Model\\UsTreasData.cs",
+              "RelativeToolTip": "SeriesUpdater\\Model\\UsTreasData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-04-29T12:11:34.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DbHandler.cs",
+              "DocumentMoniker": "C:\\Users\\cheolwon\\OneDrive\\document\\Project\\SeriesUpdater\\SeriesUpdater\\Util\\DbHandler.cs",
+              "RelativeDocumentMoniker": "SeriesUpdater\\Util\\DbHandler.cs",
+              "ToolTip": "C:\\Users\\cheolwon\\OneDrive\\document\\Project\\SeriesUpdater\\SeriesUpdater\\Util\\DbHandler.cs",
+              "RelativeToolTip": "SeriesUpdater\\Util\\DbHandler.cs",
+              "ViewState": "AgIAAN0CAAAAAAAAAAAAAN0CAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-04-29T12:11:34.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EcosSeriesInfo.cs",
+              "DocumentMoniker": "C:\\Users\\cheolwon\\OneDrive\\document\\Project\\SeriesUpdater\\SeriesUpdater\\Model\\EcosSeriesInfo.cs",
+              "RelativeDocumentMoniker": "SeriesUpdater\\Model\\EcosSeriesInfo.cs",
+              "ToolTip": "C:\\Users\\cheolwon\\OneDrive\\document\\Project\\SeriesUpdater\\SeriesUpdater\\Model\\EcosSeriesInfo.cs",
+              "RelativeToolTip": "SeriesUpdater\\Model\\EcosSeriesInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T11:46:56.32Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FredSeriesInfo.cs",
+              "DocumentMoniker": "C:\\Users\\cheolwon\\OneDrive\\document\\Project\\SeriesUpdater\\SeriesUpdater\\Model\\FredSeriesInfo.cs",
+              "RelativeDocumentMoniker": "SeriesUpdater\\Model\\FredSeriesInfo.cs",
+              "ToolTip": "C:\\Users\\cheolwon\\OneDrive\\document\\Project\\SeriesUpdater\\SeriesUpdater\\Model\\FredSeriesInfo.cs",
+              "RelativeToolTip": "SeriesUpdater\\Model\\FredSeriesInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T11:46:57.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SeriesData.cs",
+              "DocumentMoniker": "C:\\Users\\cheolwon\\OneDrive\\document\\Project\\SeriesUpdater\\SeriesUpdater\\Model\\SeriesData.cs",
+              "RelativeDocumentMoniker": "SeriesUpdater\\Model\\SeriesData.cs",
+              "ToolTip": "C:\\Users\\cheolwon\\OneDrive\\document\\Project\\SeriesUpdater\\SeriesUpdater\\Model\\SeriesData.cs",
+              "RelativeToolTip": "SeriesUpdater\\Model\\SeriesData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T11:46:58.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Config.cs",
+              "DocumentMoniker": "C:\\Users\\cheolwon\\OneDrive\\document\\Project\\SeriesUpdater\\SeriesUpdater\\Util\\Config.cs",
+              "RelativeDocumentMoniker": "SeriesUpdater\\Util\\Config.cs",
+              "ToolTip": "C:\\Users\\cheolwon\\OneDrive\\document\\Project\\SeriesUpdater\\SeriesUpdater\\Util\\Config.cs",
+              "RelativeToolTip": "SeriesUpdater\\Util\\Config.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T06:52:19.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IEnumerableExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\cheolwon\\OneDrive\\document\\Project\\SeriesUpdater\\SeriesUpdater\\Util\\IEnumerableExtensions.cs",
+              "RelativeDocumentMoniker": "SeriesUpdater\\Util\\IEnumerableExtensions.cs",
+              "ToolTip": "C:\\Users\\cheolwon\\OneDrive\\document\\Project\\SeriesUpdater\\SeriesUpdater\\Util\\IEnumerableExtensions.cs",
+              "RelativeToolTip": "SeriesUpdater\\Util\\IEnumerableExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T11:46:20.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EcosApi.cs",
+              "DocumentMoniker": "C:\\Users\\cheolwon\\OneDrive\\document\\Project\\SeriesUpdater\\SeriesUpdater\\API\\EcosApi.cs",
+              "RelativeDocumentMoniker": "SeriesUpdater\\API\\EcosApi.cs",
+              "ToolTip": "C:\\Users\\cheolwon\\OneDrive\\document\\Project\\SeriesUpdater\\SeriesUpdater\\API\\EcosApi.cs",
+              "RelativeToolTip": "SeriesUpdater\\API\\EcosApi.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAIA2wDkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-04-29T12:11:34.351Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "YahooApi.cs",
+              "DocumentMoniker": "C:\\Users\\cheolwon\\OneDrive\\document\\Project\\SeriesUpdater\\SeriesUpdater\\API\\YahooApi.cs",
+              "RelativeDocumentMoniker": "SeriesUpdater\\API\\YahooApi.cs",
+              "ToolTip": "C:\\Users\\cheolwon\\OneDrive\\document\\Project\\SeriesUpdater\\SeriesUpdater\\API\\YahooApi.cs",
+              "RelativeToolTip": "SeriesUpdater\\API\\YahooApi.cs",
+              "ViewState": "AQIAAGEAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T06:11:39.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\cheolwon\\OneDrive\\document\\Project\\SeriesUpdater\\SeriesUpdater\\App.config",
+              "RelativeDocumentMoniker": "SeriesUpdater\\App.config",
+              "ToolTip": "C:\\Users\\cheolwon\\OneDrive\\document\\Project\\SeriesUpdater\\SeriesUpdater\\App.config",
+              "RelativeToolTip": "SeriesUpdater\\App.config",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACYAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2023-04-29T12:11:34.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SqlStatement.cs",
+              "DocumentMoniker": "C:\\Users\\cheolwon\\OneDrive\\document\\Project\\SeriesUpdater\\SeriesUpdater\\Util\\SqlStatement.cs",
+              "RelativeDocumentMoniker": "SeriesUpdater\\Util\\SqlStatement.cs",
+              "ToolTip": "C:\\Users\\cheolwon\\OneDrive\\document\\Project\\SeriesUpdater\\SeriesUpdater\\Util\\SqlStatement.cs",
+              "RelativeToolTip": "SeriesUpdater\\Util\\SqlStatement.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-04-29T12:11:34.351Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\cheolwon\\OneDrive\\document\\Project\\SeriesUpdater\\SeriesUpdater\\Program.cs",
+              "RelativeDocumentMoniker": "SeriesUpdater\\Program.cs",
+              "ToolTip": "C:\\Users\\cheolwon\\OneDrive\\document\\Project\\SeriesUpdater\\SeriesUpdater\\Program.cs",
+              "RelativeToolTip": "SeriesUpdater\\Program.cs",
+              "ViewState": "AQIAAMIAAAAAAAAAAAAmwMsAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-04-29T12:11:34.352Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UstreasApi.cs",
+              "DocumentMoniker": "C:\\Users\\cheolwon\\OneDrive\\document\\Project\\SeriesUpdater\\SeriesUpdater\\API\\UstreasApi.cs",
+              "RelativeDocumentMoniker": "SeriesUpdater\\API\\UstreasApi.cs",
+              "ToolTip": "C:\\Users\\cheolwon\\OneDrive\\document\\Project\\SeriesUpdater\\SeriesUpdater\\API\\UstreasApi.cs",
+              "RelativeToolTip": "SeriesUpdater\\API\\UstreasApi.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-04-29T12:11:34.749Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

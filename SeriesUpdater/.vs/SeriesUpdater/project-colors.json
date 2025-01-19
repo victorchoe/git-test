@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "a57bba14-121e-40ca-80b7-026a300bc43f": {
+      "ProjectGuid": "a57bba14-121e-40ca-80b7-026a300bc43f",
+      "DisplayName": "SeriesUpdater",
+      "ColorIndex": 0
+    },
+    "0a0fe6a7-b51c-4948-84df-7caf9a982958": {
+      "ProjectGuid": "0a0fe6a7-b51c-4948-84df-7caf9a982958",
+      "DisplayName": "Test",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

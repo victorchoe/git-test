@@ -1,0 +1,32 @@
+e:\my documents\visual studio 2010\Projects\EconChart\EconChartTest\bin\Debug\EconChartTest.exe
+e:\my documents\visual studio 2010\Projects\EconChart\EconChartTest\bin\Debug\EconChartTest.pdb
+e:\my documents\visual studio 2010\Projects\EconChart\EconChartTest\bin\Debug\WPFVisifire.Charts.dll
+e:\my documents\visual studio 2010\Projects\EconChart\EconChartTest\obj\x86\Debug\ResolveAssemblyReference.cache
+e:\my documents\visual studio 2010\Projects\EconChart\EconChartTest\obj\x86\Debug\MainWindow.baml
+e:\my documents\visual studio 2010\Projects\EconChart\EconChartTest\obj\x86\Debug\MainWindow.g.cs
+e:\my documents\visual studio 2010\Projects\EconChart\EconChartTest\obj\x86\Debug\App.g.cs
+e:\my documents\visual studio 2010\Projects\EconChart\EconChartTest\obj\x86\Debug\EconChartTest_MarkupCompile.cache
+e:\my documents\visual studio 2010\Projects\EconChart\EconChartTest\obj\x86\Debug\EconChartTest.g.resources
+e:\my documents\visual studio 2010\Projects\EconChart\EconChartTest\obj\x86\Debug\EconChartTest.Properties.Resources.resources
+e:\my documents\visual studio 2010\Projects\EconChart\EconChartTest\obj\x86\Debug\GenerateResource.read.1.tlog
+e:\my documents\visual studio 2010\Projects\EconChart\EconChartTest\obj\x86\Debug\GenerateResource.write.1.tlog
+e:\my documents\visual studio 2010\Projects\EconChart\EconChartTest\obj\x86\Debug\EconChartTest.exe
+e:\my documents\visual studio 2010\Projects\EconChart\EconChartTest\obj\x86\Debug\EconChartTest.pdb
+e:\my documents\visual studio 2010\Projects\EconChart\EconChartTest\bin\Debug\EconChartTest.exe.config
+e:\my documents\visual studio 2010\Projects\EconChart\EconChartTest\bin\Debug\WPFToolkit.dll
+c:\OneDrive\document\Project\EconChart\EconChartTest\bin\Debug\EconChartTest.exe.config
+c:\OneDrive\document\Project\EconChart\EconChartTest\bin\Debug\EconChartTest.exe
+c:\OneDrive\document\Project\EconChart\EconChartTest\bin\Debug\EconChartTest.pdb
+c:\OneDrive\document\Project\EconChart\EconChartTest\obj\x86\Debug\MainWindow.baml
+c:\OneDrive\document\Project\EconChart\EconChartTest\obj\x86\Debug\MainWindow.g.cs
+c:\OneDrive\document\Project\EconChart\EconChartTest\obj\x86\Debug\App.g.cs
+c:\OneDrive\document\Project\EconChart\EconChartTest\obj\x86\Debug\EconChartTest_MarkupCompile.cache
+c:\OneDrive\document\Project\EconChart\EconChartTest\obj\x86\Debug\EconChartTest.g.resources
+c:\OneDrive\document\Project\EconChart\EconChartTest\obj\x86\Debug\EconChartTest.Properties.Resources.resources
+c:\OneDrive\document\Project\EconChart\EconChartTest\obj\x86\Debug\EconChartTest.csproj.GenerateResource.Cache
+c:\OneDrive\document\Project\EconChart\EconChartTest\obj\x86\Debug\EconChartTest.exe
+c:\OneDrive\document\Project\EconChart\EconChartTest\obj\x86\Debug\EconChartTest.pdb
+C:\OneDrive\document\Project\EconChart\EconChartTest\obj\x86\Debug\EconChartTest.csproj.AssemblyReference.cache
+C:\OneDrive\document\Project\EconChart\EconChartTest\obj\x86\Debug\EconChartTest.csproj.SuggestedBindingRedirects.cache
+C:\OneDrive\document\Project\EconChart\EconChartTest\obj\x86\Debug\EconChartTest.csproj.CoreCompileInputs.cache
+C:\OneDrive\document\Project\EconChart\EconChartTest\obj\x86\Debug\EconChartTest.csproj.CopyComplete

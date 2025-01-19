@@ -1,0 +1,67 @@
+﻿<Window x:Class="EconChartTest.MainWindow"
+		xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+		xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+		Title="MainWindow" Height="350" Width="525" WindowState="Maximized">
+	<Grid>
+		<DockPanel Name="dockPanel1">
+			<Menu DockPanel.Dock="Top" Name="menu1" Height="23" VerticalAlignment="Top">
+				<MenuItem Header="고용">
+					<MenuItem Header="실업률과 인구대비고용률" Click="EmratioAndUnrate_Click"/>
+				</MenuItem>
+				<MenuItem Header="상품">
+					<MenuItem Header="FredApi Test" Click="Test1_Click"/>
+				</MenuItem>
+				<MenuItem Header="통화">					
+					<MenuItem Header="한중일, 대미달러 가치" Click="ForexUsVsKo_Ch_Jp_Click"/>
+					<MenuItem Header="한중일, 대미달러 가치Test" Click="ForexUsVsKo_Ch_Jp_Test_Click"/>
+				</MenuItem>
+				<MenuItem Header="Inflation"/>
+				<MenuItem Header="금융">
+					<MenuItem Header="US Treas 동향" Click="UsTreas_Click"/>
+					<MenuItem Header="US Treas 동향: Short Term" Click="UsTreasBondShortTerm_Click"/>
+					<MenuItem Header="US Treas 동향: Long Term - Agg Weekly Avg." Click="UsTreasLongTerm_Click"/>
+				</MenuItem>
+				<MenuItem Header="부동산"/>
+				<MenuItem Header="기타">					
+					<MenuItem Header="ISM 제조업지수">
+						<MenuItem Header="ISM 제조업부문: 제조업지수" Click="IsmNapm_Click"/>
+						<MenuItem Header="ISM 제조업부문: 신규주문지수" Click="IsmNapmNoi_Click"/>
+						<MenuItem Header="ISM 제조업부문: 수주잔고지수" Click="IsmNapmBi_Click"/>
+						<MenuItem Header="ISM 제조업부문: 가격지수" Click="IsmNapmPri_Click"/>
+						<MenuItem Header="ISM 제조업부문: 고용지수" Click="IsmNapmEi_Click"/>		
+						<Separator/>
+						<MenuItem Header="ISM 제조업부문: 공급자 운송지수" Click="IsmNapmSdi_Click"/>
+						<MenuItem Header="ISM 제조업부문: 생산지수" Click="IsmNapmPi_Click"/>						
+						<MenuItem Header="ISM 제조업부문: 재고지수" Click="IsmNapmIi_Click"/>
+						<MenuItem Header="ISM 제조업부문: 소비자재고지수" Click="IsmNapmCi_Click"/>
+						<MenuItem Header="ISM 제조업부문: 수입지수" Click="IsmNapmImp_Click"/>
+						<MenuItem Header="ISM 제조업부문: 신규수출주문지수" Click="IsmNapmExi_Click"/>						
+					</MenuItem>
+					<MenuItem Header="ISM 서비스업지수">
+						<MenuItem Header="ISM 서비스부문: 서비스업 종합지수" Click="IsmNmfCi_Click"/>
+						<MenuItem Header="ISM 서비스부문: 경기동향지수" Click="IsmNmfBai_Click"/>
+						<MenuItem Header="ISM 서비스부문: 신규주문지수" Click="IsmNmfNoi_Click"/>
+						<MenuItem Header="ISM 서비스부문: 수주잔고지수" Click="IsmNmfBi_Click"/>						
+						<MenuItem Header="ISM 서비스부문: 가격지수" Click="IsmNmfPi_Click"/>
+						<MenuItem Header="ISM 서비스부문: 고용지수" Click="IsmNmfEi_Click"/>
+						<Separator/>
+						<MenuItem Header="ISM 서비스부문: 공급자 운송지수" Click="IsmNmfSdi_Click"/>						
+						<MenuItem Header="ISM 서비스부문: 신규수출주문지수" Click="IsmNmfExi_Click"/>
+						<MenuItem Header="ISM 서비스부문: 수입지수" Click="IsmNmfImi_Click"/>						
+						<MenuItem Header="ISM 서비스부문: 재고지수" Click="IsmNmfIni_Click"/>
+						<MenuItem Header="ISM 서비스부문: 재고기대지수" Click="IsmNmfInsi_Click"/>						
+					</MenuItem>
+					<MenuItem Header="ISM 지수">
+						<MenuItem Header="ISM 고용지수 종합" Click="IsmNapmEiAndNmfEi_Click"/>
+						<MenuItem Header="ISM 가격지수 종합" Click="IsmNapmPiAndNmfPi_Click"/>
+						<MenuItem Header="ISM 신규주문지수 종합" Click="IsmNapmNoiAndNmfNoi_Click"/>
+						<MenuItem Header="ISM 수주잔고지수 종합" Click="IsmNapmBiAndNmfBi_Click"/>
+					</MenuItem>
+				</MenuItem>
+				<MenuItem Header="종료" Click="Exit_Click"/>
+			</Menu>
+			<Grid DockPanel.Dock="Bottom" x:Name="LayoutRoot">
+			</Grid>
+		</DockPanel>
+	</Grid>
+</Window>
